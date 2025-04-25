@@ -1,12 +1,11 @@
 
-import React from 'react';
-
-const Logo: React.FC = () => {
+const Logo = () => {
   return (
     <div className="flex items-center">
-      <span className="text-white text-2xl font-bold">ad</span>
-      <span className="text-adam-pink text-2xl font-bold">•</span>
-      <span className="text-white text-2xl font-bold">m</span>
+      <div className="h-10 w-10 rounded-lg bg-primary/80 flex items-center justify-center mr-2">
+        <span className="text-black font-bold text-lg">A</span>
+      </div>
+      <span className="text-white font-bold text-xl">Adam</span>
     </div>
   );
 };
